@@ -1,0 +1,154 @@
+/*======================================= GENERAL STYLES ================================*/
+.container {
+    margin: 0 6rem;
+}
+
+.btn--big {
+    font-size: 1.4rem;
+    padding: 1.4rem 2.8rem;
+}
+
+.btn--small {
+    font-size: 1.2rem;
+    padding: 0.8rem;
+}
+
+/*====================================== HEADER ==============================*/
+header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+}
+
+.header-text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 1.4rem;
+}
+
+.header-text {
+    font-size: 1.8rem;
+    line-height: 1.3;
+}
+
+/*====================================== FEATURES =============================================*/
+.chair-special {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.chair-special h2 {
+    font-size: 2.8rem;
+}
+
+.chair--features {
+    display: flex;
+    flex-direction: column;
+}
+
+.chair--features > div {
+    margin-bottom: 2.4rem;
+}
+
+.features-icon {
+    margin-bottom: 1rem;
+}
+
+.features-title {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.features-text {
+    font-size: 1.6rem;
+}
+
+/*====================================== TESTIMONIAL =====================================*/
+.testimonial-section {
+    padding: 4.8rem;
+}
+
+.testimonial--section-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+}
+
+.testimonial-box h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    margin-bottom: 1.8rem;
+}
+
+.testimonial-author {
+    font-size: 1.2rem;
+}
+
+/*============================================== CHAIRS ===================================*/
+.bestselling-chairs {
+    display: flex;
+    flex-direction: column;
+}
+
+.bestselling-chairs h2 {
+    align-self: center;
+    justify-self: center;
+
+    font-size: 2.8rem;
+}
+
+.bestselling--chairs-flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6rem;
+}
+
+.chair-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1.4rem;
+}
+
+.chair-box h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.chair-details {
+    margin-bottom: 1.2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chair-details span {
+    font-size: 1.6rem;
+}
+
+.chair-price {
+    font-size: 1.8rem;
+    column-gap: 4rem;
+}
+
+.chair-icon {
+    width: 24px;
+    height: 24px;
+}
