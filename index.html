@@ -4,12 +4,22 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!--====================================== MAIN STYLE ====================================-->
         <link rel="stylesheet" href="css/style.css" />
+
+        <!--================================= MEDIA QUERY ========================================-->
+        <link rel="stylesheet" media="screen and (max-width : 960px)" href="css/mobile.css" />
+
         <title>Lisbon Chair Shop</title>
     </head>
+
     <body>
+        <!--====================================== HAIDER =========================================-->
         <div class="container">
             <header>
+                <img src="img/hero.jpg" alt="Photo" />
+
                 <div class="header-text-box">
                     <h1>We design and build better chairs, for a better life</h1>
                     <p class="header-text">
@@ -18,12 +28,13 @@
                     </p>
                     <a class="btn btn--big" href="#">Shop chairs</a>
                 </div>
-                <img src="img/hero.jpg" alt="Photo" />
             </header>
 
-            <section>
+            <!--========================== WAHT MAKES OUR CHAIR SPECIAL ====================================-->
+            <section class="chair-special">
                 <h2>What makes our chairs special</h2>
-                <div class="grid-3-cols">
+
+                <div class="grid-3-cols chair--features">
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" class="features-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path
@@ -71,9 +82,11 @@
                 </div>
             </section>
 
+            <!--========================================== TESTIMONIAL SECTION ===================================-->
             <section class="testimonial-section">
-                <div class="grid-3-cols">
+                <div class="grid-3-cols testimonial--section-flex">
                     <img src="img/customers.jpg" alt="People sitting on chairs" />
+
                     <div class="testimonial-box">
                         <h2>"We couldn't live without these chairs anymore"</h2>
                         <blockquote class="testimonial-text">
@@ -85,13 +98,17 @@
                 </div>
             </section>
 
-            <section>
+            <!--======================================= BESTSELLING CHAIRS =========================================-->
+            <section class="bestselling-chairs">
                 <h2>Our bestselling chairs</h2>
-                <div class="grid-3-cols">
+
+                <div class="grid-3-cols bestselling--chairs-flex">
                     <figure class="chair">
                         <img src="img/chair-1.jpg" alt="Chair" />
+
                         <div class="chair-box">
                             <h3>The Laid Back</h3>
+
                             <ul class="chair-details">
                                 <li>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="chair-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -137,6 +154,7 @@
 
                     <figure class="chair">
                         <img src="img/chair-2.jpg" alt="Chair" />
+
                         <div class="chair-box">
                             <h3>The Worker Bee</h3>
                             <ul class="chair-details">
@@ -184,6 +202,7 @@
 
                     <figure class="chair">
                         <img src="img/chair-3.jpg" alt="Chair" />
+
                         <div class="chair-box">
                             <h3>The Chair 4/2</h3>
                             <ul class="chair-details">
@@ -231,6 +250,7 @@
                 </div>
             </section>
 
+            <!--======================================= FOOTER =======================================-->
             <footer>Copyright &copy; 2021 Lisbon Chairs Shop.</footer>
         </div>
     </body>
