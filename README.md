@@ -5,7 +5,7 @@
 
 ## Lisbon Chairs - Simple Landing Page
 
-<img src="app-preview.png" width="60%" height="60%" />
+<img src="app-preview.jpg" width="60%" height="60%" />
 
 ## Try It
 
